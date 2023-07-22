@@ -618,7 +618,10 @@
         gap: 0;
         height: 80vh;
     }
-    
+    #header{
+        position: relative;
+        z-index: 100;
+    }
     #header-img{
         height: 50%;
     }
@@ -644,7 +647,11 @@
     }
     #stats-div div{
         position: relative;
-        top: 10%;
+        top: 15%;
+    }
+    #speak-div-2{
+        position: relative;
+        top: 0% !important;
     }
     #stats-img{
         width: 100%;
@@ -653,7 +660,7 @@
         justify-content: center;
     }
     #stats-img img{
-        width: 50%;
+        width: 80%;
     }
     #stats-text{
         width: 90%;
@@ -744,5 +751,8 @@
     }
     #speak-div-5{
         width: 90%;
+    }
+    #header-logo div{
+        font-size: 2rem;
     }
   }
